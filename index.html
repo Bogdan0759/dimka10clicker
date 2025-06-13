@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dimka10It кликер</h1>
+        <p>очки: <span id="Score">0</span></p>
+        <img id="clickButton" src="Images/5377573791221278961.jpg" alt="Click Me" style="cursor: pointer; width: 100px; height: auto;">
+
+        <div class="shop-icon">
+            <img id="shopIcon" src="Images/shop.jpeg" alt="Shop" style="cursor: pointer; width: 50px; height: auto; margin-top: 20px;">
+        </div>
+
+        <div id="shop" class="shop-container" style="display: none; margin-top: 20px; padding: 20px; background-color: #f4f4f4; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+            <h2>Магазин</h2>
+            <div class="shop-item" id="autoClicker">
+                <p>Автокликер (1 очко/сек)</p>
+                <p>Цена: <span class="cost">50</span> очков</p>
+                <button class="buy-button">Купить</button>
+            </div>
+            <div class="shop-item" id="improvedFingers">
+                <p>Улучшенные пальцы (+1 очко за клик)</p>
+                <p>Цена: <span class="cost">100</span> очков</p>
+                <button class="buy-button">Купить</button>
+            </div>
+            <div class="shop-item" id="scoreMultiplier">
+                <p>Множитель очков (x2)</p>
+                <p>Цена: <span class="cost">200</span> очков</p>
+                <button class="buy-button">Купить</button>
+            </div>
+            <div class="shop-item" id="superClick">
+                <p>Супер Клик (Большой прирост очков)</p>
+                <p>Цена: <span class="cost">500</span> очков</p>
+                <button class="buy-button">Купить</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="saveLoad.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

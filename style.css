@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove button styles as we are now using an image */
+/*
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+*/
+
+.shop-container {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.shop-item {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.shop-item p {
+    margin: 5px 0;
+}
+
+.shop-item .buy-button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.shop-item .buy-button:hover {
+    background-color: #4cae4c;
+}
